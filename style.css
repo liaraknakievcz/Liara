@@ -12,14 +12,37 @@ header {
     color: rgb(131, 210, 241);
 }
 
-section {
-    background: rgb(151, 236, 189);
+.chamada {
+    background: rgb(255, 161, 177);
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
     justify-content: center;
 }
 
-div {
-    margin-right: 20px;
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+img {
+    height: 200px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
 }
