@@ -46,3 +46,17 @@ img {
     padding-left: 20px;
     padding-right: 20px;
 }
+
+.categoria-videos img {
+    opacity:0.5;
+    height: 200px;
+}
+
+.categoria-videos img:houver {
+    opacity: 1.0;
+    border: 3px solid rgb(173, 219, 173);
+}
+
+.categori h2 {
+    color:rgb(164, 213, 233)
+}
